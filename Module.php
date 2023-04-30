@@ -1,6 +1,6 @@
 <?php
 
-namespace humhub\modules\patreon;
+namespace humhub\modules\stripe;
 
 use Yii;
 use yii\helpers\Url;
@@ -13,13 +13,13 @@ class Module extends \humhub\components\Module
      */
     public function getConfigUrl()
     {
-        return Url::to(['/patreon/admin']);
+        return Url::to(['/stripe/admin']);
     }
     public function getServerUrl()
     {
         $url = $this->settings->get('serverUrl');
         if (empty($url)) {
-            return 'https://www.patreon.com';
+            return 'https://buy.stripe.com';
         }
         return $url;
     }
