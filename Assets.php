@@ -1,6 +1,6 @@
 <?php
 
-namespace humhub\modules\patreon;
+namespace humhub\modules\stripe;
 
 use Yii;
 use yii\web\AssetBundle;
@@ -13,7 +13,7 @@ class Assets extends AssetBundle
     ];
 
     public $css = [
-      'patreon.css'
+      'stripe.css'
     ];
 
     public $js = [
