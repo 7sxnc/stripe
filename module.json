@@ -1,8 +1,8 @@
 {
-    "id": "patreon",
-    "name": "Patreon",
-    "description": "Adds Patreon widget to HumHub`s website.",
-    "keywords": ["patreon","widget"],
+    "id": "Stripe",
+    "name": "Stripe",
+    "description": "Adds Stripe widget to HumHub`s website.",
+    "keywords": ["Stripe","widget"],
     "version": "1.0.1",
     "humhub": {
     "minVersion": "1.3"
